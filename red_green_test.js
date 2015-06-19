@@ -1,15 +1,15 @@
-var rg = new RedOrGreen("Thandokazi");
+var rg = new RedOrGreen("Square");
    
   
 
-  rg.makeRed("Thandokazi");
-   if(document.getElementById("Thandokazi").style.backgroundColor === 'red'){
+  rg.makeRed("Square");
+   if(document.getElementById("Square").style.backgroundColor === 'red'){
    		window.alert("success");
    }else{
    	window.alert("Error");
    }
-  rg.makeGreen("Thandokazi");
-  if(document.getElementById("Thandokazi").style.backgroundColor === 'green'){
+  rg.makeGreen("Square");
+  if(document.getElementById("Square").style.backgroundColor === 'green'){
    		window.alert("success");
    }else{
    	window.alert("Error");
