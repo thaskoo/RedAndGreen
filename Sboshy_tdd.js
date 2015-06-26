@@ -1,0 +1,3 @@
+function Sboshy() {
+	return "Sboshy!";
+}

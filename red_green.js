@@ -1,10 +1,10 @@
-function RedOrGreen(Square){
+function RedOrGreen(div){
 	
-	this.makeRed = function(){
-      	document.getElementById("Square").style.background = "red";
-    };
+	this.makeGreen = function(){
+      	document.getElementById(div).style.background = "Green";
+    }
 
-    this.makeGreen = function() {
-      	document.getElementById("Square").style.background = "green";
+    this.makeRed = function() {
+      	document.getElementById(div).style.background = "Red";
   	}
 }

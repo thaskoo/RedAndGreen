@@ -1,0 +1,3 @@
+function Kaziey() {
+	return "Kaziey!";
+}
